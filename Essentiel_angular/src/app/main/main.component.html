@@ -1,0 +1,7 @@
+<h2>Hello {{ user }} !</h2>
+
+<div class="imgContainer">
+<div *ngFor="let i of [1, 2, 3, 4]" [routerLink]="['chat', i]">
+  <img  src="{{'assets/chat' + i + '.jpeg'}}">
+</div>
+</div>

@@ -1,0 +1,16 @@
+.active {
+    font-weight: bolder;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+.navContainer {
+    background-color: dimgrey;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
